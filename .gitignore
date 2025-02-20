@@ -1,0 +1,74 @@
+# Node Modules
+/node_modules
+/ios/Pods
+/android/.gradle
+/android/.idea/caches
+/android/build
+
+# Dependency directories
+jspm_packages
+
+# Built application files
+*.apk
+*.ipa
+*.sym
+*.dSYM/
+*.tar.gz
+
+# OS generated files
+.DS_Store
+._*
+Thumbs.db
+
+# Editor & IDE related
+.idea
+.vscode
+*.swp
+*.swo
+*.sublime*
+*.tmproj
+*.esproj
+*.bak*
+*.tmp
+*.orig
+*.diff
+
+# Android Specific
+android/local.properties
+android/keystore.properties
+android/app/src/main/assets/debug.keystore
+
+# iOS Specific
+ios/build/*
+ios/Podfile.lock
+ios/ xcuserdata/
+ios/ xcshareddata/
+ios/DerivedData/*
+
+# Gradle
+.gradle
+/build
+
+# Log files
+*.log
+*-debug.log
+*-error.log
+
+# Temp files
+*~
+*.pyc
+*.db
+*.lock
+
+# Docker related (optional, depending on your setup)
+.dockerignore
+.env
+docker-compose.override.yml
+docker-compose.yml #If you don't want it in your repository
+.DS_Store
+
+#Ignorar carpetas de codigo generado
+/android/app/build/generated/source/
+
+#Ignorar archivos de configuracion personales
+android/gradle.properties
