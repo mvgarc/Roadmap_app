@@ -1,4 +1,4 @@
-# X
+# Roadmap
 
 Este proyecto es una aplicación React Native construida utilizando Docker para asegurar un entorno de desarrollo consistente y reproducible.
 
