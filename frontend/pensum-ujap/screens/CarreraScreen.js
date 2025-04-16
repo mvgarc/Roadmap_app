@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { View, Text, FlatList, StyleSheet, ScrollView } from 'react-native';
-import planIC from '../assets/data/plan_ic.json';
+import { View, Text, StyleSheet, ScrollView } from 'react-native';
+import pensum_ic from '../assets/data/plan_ic.json';
 
 const CarreraScreen = () => {
     const [plan, setPlan] = useState(null);
     useEffect(() => {
         // Como el JSON es localmente importado, no hace falta fetch
-        setPlan(planIC);
+        setPlan(pensum_ic);
     }, []);
     if (!plan) {
         return (
