@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, ScrollView } from 'react-native';
-import pensum_ic from '../assets/data/plan_ic.json';
+import pensum_ic from '../assets/data/pensum_ic.json';
 
 const CarreraScreen = () => {
     const [plan, setPlan] = useState(null);
