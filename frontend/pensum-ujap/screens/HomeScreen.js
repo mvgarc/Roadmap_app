@@ -1,6 +1,6 @@
 import { View, Text, FlatList, StyleSheet } from 'react-native';
 import SemestreCard from '../components/SemestreCard';
-import { roadmapData } from '../data/roadmap';
+import { roadmapData } from '../data/pensum_ic';
 
 export default function HomeScreen() {
     return (
