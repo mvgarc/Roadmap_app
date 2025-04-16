@@ -1,0 +1,632 @@
+{
+    "university": "Universidad José Antonio Páez",
+    "program": "Plan de Estudios Ingeniería en Computación",
+    "credits_unit": "U.C. = Unidades Crédito por Asignatura",
+    "credits_unit_accumulated": "U.C.A. = Unidades Crédito Acumuladas",
+    "total_weekly_hours_theory": "H.T.S. = Horas Totales Semanales por Asignatura",
+    "total_weekly_hours_laboratory": "H.T.L. = Horas Totales Semanales Laboratorio",
+    "laboratory": "L = Laboratorio",
+    "requirement": "REQ. = Requisito en UC",
+    "semesters": [
+        {
+            "semester_number": 1,
+            "total_credits": 24,
+            "min_credits": null,
+            "max_credits": null,
+            "subjects": [
+            {
+                "code": "GAN 01 404",
+                "name": "Geometría Analítica",
+                "credits": 4,
+                "prerequisites": []
+            },
+            {
+                "code": "MAI 01 506",
+                "name": "Matemática I",
+                "credits": 5,
+                "prerequisites": []
+            },
+            {
+                "code": "EFS 01 202",
+                "name": "Educación Física y Salud",
+                "credits": 2,
+                "prerequisites": []
+            },
+            {
+                "code": "LOG 01 404",
+                "name": "Lógica",
+                "credits": 4,
+                "prerequisites": []
+            },
+            {
+                "code": "FIS 02 408",
+                "name": "Física I",
+                "credits": 4,
+                "prerequisites": []
+            },
+            {
+                "code": "MAI 02 506",
+                "name": "Matemática II",
+                "credits": 5,
+                "prerequisites": [
+                "MAI 01 506"
+                ]
+            }
+            ],
+            "accumulated_credits": 24
+        },
+        {
+            "semester_number": 2,
+            "total_credits": 26,
+            "min_credits": null,
+            "max_credits": null,
+            "subjects": [
+            {
+                "code": "CIN 02 303",
+                "name": "Álgebra Lineal",
+                "credits": 3,
+                "prerequisites": [
+                "MAI 01 506"
+                ]
+            },
+            {
+                "code": "FIS 03 408",
+                "name": "Física II",
+                "credits": 4,
+                "prerequisites": [
+                "FIS 02 408",
+                "MAI 02 506"
+                ]
+            },
+            {
+                "code": "MAI 03 304",
+                "name": "Matemática III",
+                "credits": 3,
+                "prerequisites": [
+                "MAI 02 506"
+                ]
+            },
+            {
+                "code": "EDI 02 303",
+                "name": "Ecuaciones Diferenciales",
+                "credits": 3,
+                "prerequisites": [
+                "MAI 02 506"
+                ]
+            },
+            {
+                "code": "CIV 02 303",
+                "name": "Creatividad e Inventiva",
+                "credits": 3,
+                "prerequisites": []
+            },
+            {
+                "code": "ING 02 303",
+                "name": "Inglés",
+                "credits": 3,
+                "prerequisites": []
+            },
+            {
+                "code": "IBK 03 303",
+                "name": "Introducción a la Ingeniería",
+                "credits": 3,
+                "prerequisites": []
+            }
+            ],
+            "accumulated_credits": 50
+        },
+        {
+            "semester_number": 3,
+            "total_credits": 26,
+            "min_credits": null,
+            "max_credits": null,
+            "subjects": [
+            {
+                "code": "FEL 04 304",
+                "name": "Fundamentos de Electrónica",
+                "credits": 3,
+                "prerequisites": [
+                "FIS 03 408"
+                ]
+            },
+            {
+                "code": "LFI 04 101",
+                "name": "Lab. de Física",
+                "credits": 1,
+                "prerequisites": [
+                "FIS 03 408"
+                ]
+            },
+            {
+                "code": "LSI 04 304",
+                "name": "Lógica Simbólica",
+                "credits": 3,
+                "prerequisites": [
+                "LOG 01 404"
+                ]
+            },
+            {
+                "code": "ETD 04 304",
+                "name": "Estadística I",
+                "credits": 3,
+                "prerequisites": [
+                "MAI 03 304"
+                ]
+            },
+            {
+                "code": "AES 04 305",
+                "name": "Algoritmos y Estructuras I",
+                "credits": 3,
+                "prerequisites": [
+                "LOG 01 404",
+                "MAI 02 506"
+                ]
+            },
+            {
+                "code": "ING 03 303",
+                "name": "Inglés",
+                "credits": 3,
+                "prerequisites": [
+                "ING 02 303"
+                ]
+            },
+            {
+                "code": "PRO 02 3 06",
+                "name": "Programación I",
+                "credits": 3,
+                "prerequisites": [
+                "AES 04 305"
+                ]
+            },
+            {
+                "code": "VEC 01 2 02",
+                "name": "Venezuela Contemporánea",
+                "credits": 2,
+                "prerequisites": []
+            }
+            ],
+            "accumulated_credits": 76
+        },
+        {
+            "semester_number": 4,
+            "total_credits": 27,
+            "min_credits": null,
+            "max_credits": null,
+            "subjects": [
+            {
+                "code": "EDI 05 4 06",
+                "name": "Estructuras Discretas I",
+                "credits": 4,
+                "prerequisites": [
+                "LSI 04 304",
+                "MAI 03 304"
+                ]
+            },
+            {
+                "code": "DLD 05 3 04",
+                "name": "Diseño Lógico",
+                "credits": 3,
+                "prerequisites": [
+                "FEL 04 304",
+                "LSI 04 304"
+                ]
+            },
+            {
+                "code": "ETD 05 3 04",
+                "name": "Estadística II",
+                "credits": 3,
+                "prerequisites": [
+                "ETD 04 304"
+                ]
+            },
+            {
+                "code": "CHU 05 4 05",
+                "name": "Cálculo Numérico",
+                "credits": 4,
+                "prerequisites": [
+                "MAI 03 304",
+                "EDI 02 303"
+                ]
+            },
+            {
+                "code": "AES 05 3 05",
+                "name": "Algoritmos y Estructuras II",
+                "credits": 3,
+                "prerequisites": [
+                "AES 04 305"
+                ]
+            },
+            {
+                "code": "PRO 03 3 06",
+                "name": "Programación II",
+                "credits": 3,
+                "prerequisites": [
+                "PRO 02 3 06"
+                ]
+            },
+            {
+                "code": "ING 04 3 03",
+                "name": "Inglés",
+                "credits": 3,
+                "prerequisites": [
+                "ING 03 303"
+                ]
+            },
+            {
+                "code": "PRO 04 4 05",
+                "name": "Programación III",
+                "credits": 4,
+                "prerequisites": [
+                "PRO 03 3 06"
+                ]
+            }
+            ],
+            "accumulated_credits": 103
+        },
+        {
+            "semester_number": 5,
+            "total_credits": 28,
+            "min_credits": null,
+            "max_credits": null,
+            "subjects": [
+            {
+                "code": "EDI 06 3 04",
+                "name": "Estructuras Discretas II",
+                "credits": 3,
+                "prerequisites": [
+                "EDI 05 4 06"
+                ]
+            },
+            {
+                "code": "CIN 06 3 04",
+                "name": "Control e Instrumentación",
+                "credits": 3,
+                "prerequisites": [
+                "FEL 04 304",
+                "LFI 04 101"
+                ]
+            },
+            {
+                "code": "CDA 06 3 04",
+                "name": "Comunicación de Datos",
+                "credits": 3,
+                "prerequisites": [
+                "ETD 05 3 04"
+                ]
+            },
+            {
+                "code": "ODC 06 3 04",
+                "name": "Organización Digital del Computador",
+                "credits": 3,
+                "prerequisites": [
+                "DLD 05 3 04"
+                ]
+            },
+            {
+                "code": "SBD 06 3 04",
+                "name": "Sistemas de Bases de Datos",
+                "credits": 3,
+                "prerequisites": [
+                "AES 05 3 05"
+                ]
+            },
+            {
+                "code": "PRO 05 3 05",
+                "name": "Programación IV",
+                "credits": 3,
+                "prerequisites": [
+                "PRO 04 4 05"
+                ]
+            },
+            {
+                "code": "PWE 06 3 05",
+                "name": "Programación WEB",
+                "credits": 3,
+                "prerequisites": [
+                "PRO 03 3 06"
+                ]
+            },
+            {
+                "code": "GER 01 2 62",
+                "name": "Gerencia",
+                "credits": 2,
+                "prerequisites": []
+            }
+            ],
+            "accumulated_credits": 131
+        },
+        {
+            "semester_number": 6,
+            "total_credits": 28,
+            "min_credits": null,
+            "max_credits": null,
+            "subjects": [
+            {
+                "code": "TH 07 3 04",
+                "name": "Traductores e Intérpretes",
+                "credits": 3,
+                "prerequisites": [
+                "EDI 06 3 04",
+                "AES 05 3 05"
+                ]
+            },
+            {
+                "code": "PMA 07 3 04",
+                "name": "Programación Matemática",
+                "credits": 3,
+                "prerequisites": [
+                "CHU 05 4 05"
+                ]
+            },
+            {
+                "code": "RDC 07 3 04",
+                "name": "Redes de Computadoras",
+                "credits": 3,
+                "prerequisites": [
+                "CDA 06 3 04"
+                ]
+            },
+            {
+                "code": "SOP 07 4 05",
+                "name": "Sistemas de Operación",
+                "credits": 4,
+                "prerequisites": [
+                "ODC 06 3 04"
+                ]
+            },
+            {
+                "code": "LPR 07 3 02",
+                "name": "Laboratorio de Programación",
+                "credits": 3,
+                "prerequisites": [
+                "PRO 05 3 05",
+                "SBD 06 3 04"
+                ]
+            },
+            {
+                "code": "SIN 07 4 04",
+                "name": "Sistemas de Información I",
+                "credits": 4,
+                "prerequisites": [
+                "SBD 06 3 04"
+                ]
+            },
+            {
+                "code": "SPR 06 4 04",
+                "name": "Sistemas de Programas",
+                "credits": 4,
+                "prerequisites": [
+                "PRO 05 3 05"
+                ]
+            },
+            {
+                "code": "SHA 10 2 02",
+                "name": "El Hombre y su Ambiente",
+                "credits": 2,
+                "prerequisites": []
+            }
+            ],
+            "accumulated_credits": 159
+        },
+        {
+            "semester_number": 7,
+            "total_credits": 27,
+            "min_credits": null,
+            "max_credits": null,
+            "subjects": [
+            {
+                "code": "MCU 08 3 04",
+                "name": "Métodos Cuantitativos",
+                "credits": 3,
+                "prerequisites": [
+                "ETD 05 3 04"
+                ]
+            },
+            {
+                "code": "ACI 08 3 04",
+                "name": "Arquitectura del Computador",
+                "credits": 3,
+                "prerequisites": [
+                "ODC 06 3 04"
+                ]
+            },
+            {
+                "code": "MIN 08 3 03",
+                "name": "Metodología de la Investigación",
+                "credits": 3,
+                "prerequisites": [
+                "ETD 05 3 04"
+                ]
+            },
+            {
+                "code": "LSI 08 4 06",
+                "name": "Sistemas de Información II",
+                "credits": 4,
+                "prerequisites": [
+                "SIN 07 4 04"
+                ]
+            },
+            {
+                "code": "ICU 08 3 04",
+                "name": "Interfaces con el Usuario",
+                "credits": 3,
+                "prerequisites": [
+                "LPR 07 3 02",
+                "PWE 06 3 05"
+                ]
+            },
+            {
+                "code": "CPR 03 3 04",
+                "name": "Control de Proyectos",
+                "credits": 3,
+                "prerequisites": [
+                "GER 01 2 62"
+                ]
+            },
+            {
+                "code": "INS 08 3 03",
+                "name": "Ingeniería de Software",
+                "credits": 3,
+                "prerequisites": [
+                "SPR 06 4 04"
+                ]
+            },
+            {
+                "code": "EIP 08 3 136",
+                "name": "Electiva Profesional I",
+                "credits": 3,
+                "prerequisites": []
+            }
+            ],
+            "accumulated_credits": 186
+        },
+        {
+            "semester_number": 8,
+            "total_credits": null,
+            "min_credits": null,
+            "max_credits": null,
+            "subjects": [
+            {
+                "code": "PTC 09 6 14",
+                "name": "Pasantía o Trabajo de Grado I",
+                "credits": 6,
+                "prerequisites": [
+                "MIN 08 3 03"
+                ]
+            },
+            {
+                "code": "TH 07 3 04",
+                "name": "Traductores e Intérpretes",
+                "credits": 3,
+                "prerequisites": [
+                "EDI 06 3 04",
+                "AES 05 3 05"
+                ]
+            },
+            {
+                "code": "PMA 07 3 04",
+                "name": "Programación Matemática",
+                "credits": 3,
+                "prerequisites": [
+                "CHU 05 4 05"
+                ]
+            },
+            {
+                "code": "RDC 07 3 04",
+                "name": "Redes de Computadoras",
+                "credits": 3,
+                "prerequisites": [
+                "CDA 06 3 04"
+                ]
+            },
+            {
+                "code": "SOP 07 4 05",
+                "name": "Sistemas de Operación",
+                "credits": 4,
+                "prerequisites": [
+                "ODC 06 3 04"
+                ]
+            }
+            ],
+            "accumulated_credits": null
+        },
+        {
+            "semester_number": 9,
+            "total_credits": null,
+            "min_credits": null,
+            "max_credits": null,
+            "subjects": [
+            {
+                "code": "LPR 07 3 02",
+                "name": "Laboratorio de Programación",
+                "credits": 3,
+                "prerequisites": [
+                "PRO 05 3 05",
+                "SBD 06 3 04"
+                ]
+            },
+            {
+                "code": "SIN 07 4 04",
+                "name": "Sistemas de Información I",
+                "credits": 4,
+                "prerequisites": [
+                "SBD 06 3 04"
+                ]
+            },
+            {
+                "code": "SPR 06 4 04",
+                "name": "Sistemas de Programas",
+                "credits": 4,
+                "prerequisites": [
+                "PRO 05 3 05"
+                ]
+            },
+            {
+                "code": "SHA 10 2 02",
+                "name": "El Hombre y su Ambiente",
+                "credits": 2,
+                "prerequisites": []
+            },
+                {
+                "code": "MCU 08 3 04",
+                "name": "Métodos Cuantitativos",
+                "credits": 3,
+                "prerequisites": [
+                "ETD 05 3 04"
+                ]
+            }
+            ],
+            "accumulated_credits": null
+        },
+        {
+            "semester_number": 10,
+            "total_credits": null,
+            "min_credits": null,
+            "max_credits": null,
+            "subjects": [
+            {
+                "code": "ACI 08 3 04",
+                "name": "Arquitectura del Computador",
+                "credits": 3,
+                "prerequisites": [
+                "ODC 06 3 04"
+                ]
+            },
+            {
+                "code": "MIN 08 3 03",
+                "name": "Metodología de la Investigación",
+                "credits": 3,
+                "prerequisites": [
+                "ETD 05 3 04"
+                ]
+            },
+            {
+                "code": "LSI 08 4 06",
+                "name": "Sistemas de Información II",
+                "credits": 4,
+                "prerequisites": [
+                "SIN 07 4 04"
+                ]
+            },
+            {
+                "code": "ICU 08 3 04",
+                "name": "Interfaces con el Usuario",
+                "credits": 3,
+                "prerequisites": [
+                "LPR 07 3 02",
+                "PWE 06 3 05"
+                ]
+            },
+            {
+                "code": "CPR 03 3 04",
+                "name": "Control de Proyectos",
+                "credits": 3,
+                "prerequisites": [
+                "GER 01 2 62"
+                ]
+            }
+            ],
+            "accumulated_credits": null
+        }
+    ]
+}
