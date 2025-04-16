@@ -1,0 +1,1 @@
+import {View, Text, TextInput, StyleSheet} from 'react-native';
