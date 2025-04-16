@@ -1,39 +1,20 @@
-import React, { useEffect, useState } from 'react';
-import { View, Text, StyleSheet, ScrollView } from 'react-native';
-import pensum_ic from '../assets/data/pensum_ic.json';
+import React from 'react';
+import { View, Text, ScrollView, StyleSheet } from 'react-native';
+import plan from '../assets/data/plan_ic.json';
 
 const CarreraScreen = () => {
-    const [plan, setPlan] = useState(null);
-    useEffect(() => {
-        // Como el JSON es localmente importado, no hace falta fetch
-        setPlan(pensum_ic);
-    }, []);
-    if (!plan) {
-        return (
-        <View style={styles.container}>
-            <Text>Cargando plan de estudios...</Text>
-        </View>
-        );
-    }
-
     return (
         <ScrollView style={styles.container}>
-        <Text style={styles.title}>{plan.degree}</Text>
-        <Text style={styles.subtitle}>Universidad: {plan.university}</Text>
+        <Text style={styles.title}>Plan de Estudios</Text>
 
-        {plan.semesters.map((semester, index) => (
-            <View key={index} style={styles.semesterContainer}>
-            <Text style={styles.semesterTitle}>Semestre {semester.semester}</Text>
-            {semester.subjects.map((subject, subIndex) => (
-                <View key={subIndex} style={styles.subjectCard}>
-                <Text style={styles.subjectName}>{subject.name}</Text>
-                <Text style={styles.subjectDetail}>Código: {subject.code}</Text>
-                <Text style={styles.subjectDetail}>Créditos: {subject.credits}</Text>
-                {subject.prerequisites.length > 0 && (
-                    <Text style={styles.subjectDetail}>
-                    Prerrequisitos: {subject.prerequisites.join(', ')}
-                    </Text>
-                )}
+        {plan.map((semestre, index) => (
+            <View key={index} style={styles.semestreContainer}>
+            <Text style={styles.semestreTitle}>{semestre.semestre}</Text>
+
+            {semestre.materias.map((materia, idx) => (
+                <View key={idx} style={styles.materiaCard}>
+                <Text style={styles.materiaNombre}>{materia.nombre}</Text>
+                <Text style={styles.creditos}>Créditos: {materia.creditos}</Text>
                 </View>
             ))}
             </View>
@@ -43,45 +24,18 @@ const CarreraScreen = () => {
     };
 
     const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        padding: 16,
-        backgroundColor: '#f7f9fc',
-    },
-    title: {
-        fontSize: 24,
-        fontWeight: 'bold',
-        marginBottom: 8,
-    },
-    subtitle: {
-        fontSize: 16,
-        marginBottom: 16,
-        color: '#555',
-    },
-    semesterContainer: {
-        marginBottom: 24,
-    },
-    semesterTitle: {
-        fontSize: 20,
-        fontWeight: '600',
-        marginBottom: 8,
-        color: '#2e86de',
-    },
-    subjectCard: {
-        backgroundColor: '#fff',
+    container: { padding: 16 },
+    title: { fontSize: 24, fontWeight: 'bold', marginBottom: 16 },
+    semestreContainer: { marginBottom: 24 },
+    semestreTitle: { fontSize: 20, fontWeight: '600', marginBottom: 8 },
+    materiaCard: {
         padding: 12,
+        backgroundColor: '#f1f1f1',
         borderRadius: 8,
         marginBottom: 8,
-        elevation: 2,
     },
-    subjectName: {
-        fontSize: 16,
-        fontWeight: 'bold',
-    },
-    subjectDetail: {
-        fontSize: 14,
-        color: '#555',
-    },
+    materiaNombre: { fontSize: 16 },
+    creditos: { fontSize: 14, color: '#555' },
 });
 
 export default CarreraScreen;
