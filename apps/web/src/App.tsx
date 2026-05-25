@@ -3,7 +3,6 @@ import { calcularEstados } from "@packages/core";
 import { guardarProgreso, cargarProgreso } from "./persistencia";
 import type { Materia, Pensum, EstadoMateria } from "@packages/core";
 import { ujapIngComputacion } from "@packages/data";
-import { Celda } from "./components/Celda";
 import { FilaSemestre } from "./components/FilaSemestre";
 import { BarraResumen } from "./components/BarraResumen";
 import { ModalMateria } from "./components/ModalMateria";
