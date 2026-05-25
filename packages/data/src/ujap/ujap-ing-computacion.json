@@ -54,7 +54,9 @@
       "nombre": "Creatividad e Inventiva",
       "semestre": 2,
       "uc": 3,
-      "prelaciones": []
+      "prelaciones": [
+        { "tipo": "creditos", "minimo": 17 }
+      ]
     },
     {
       "codigo": "FIS02405",
