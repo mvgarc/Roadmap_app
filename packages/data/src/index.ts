@@ -1,0 +1,1 @@
+export { default as ujapIngComputacion } from "./ujap/ujap-ing-computacion.json";

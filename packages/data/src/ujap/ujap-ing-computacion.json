@@ -1,0 +1,510 @@
+{
+  "universidad": "UJAP",
+  "carrera": "Ingeniería en Computación",
+  "plan": "I-2019 (Aprobado CU 552 del 04/12/2018)",
+  "materias": [
+    {
+      "codigo": "EFS01202",
+      "nombre": "Educación Física y Salud",
+      "semestre": 1,
+      "uc": 2,
+      "prelaciones": []
+    },
+    {
+      "codigo": "GAN01404",
+      "nombre": "Geometría Analítica",
+      "semestre": 1,
+      "uc": 4,
+      "prelaciones": []
+    },
+    {
+      "codigo": "LOG01404",
+      "nombre": "Lógica",
+      "semestre": 1,
+      "uc": 4,
+      "prelaciones": []
+    },
+    {
+      "codigo": "MAI01506",
+      "nombre": "Matemática I",
+      "semestre": 1,
+      "uc": 5,
+      "prelaciones": []
+    },
+    {
+      "codigo": "VEC01202",
+      "nombre": "Venezuela Contemporánea",
+      "semestre": 1,
+      "uc": 2,
+      "prelaciones": []
+    },
+
+    {
+      "codigo": "ALI02304",
+      "nombre": "Álgebra Lineal",
+      "semestre": 2,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "GAN01404" },
+        { "tipo": "materia", "codigo": "MAI01506" }
+      ]
+    },
+    {
+      "codigo": "CIN02303",
+      "nombre": "Creatividad e Inventiva",
+      "semestre": 2,
+      "uc": 3,
+      "prelaciones": []
+    },
+    {
+      "codigo": "FIS02405",
+      "nombre": "Física I",
+      "semestre": 2,
+      "uc": 4,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "GAN01404" },
+        { "tipo": "materia", "codigo": "MAI01506" }
+      ]
+    },
+    {
+      "codigo": "MAI02506",
+      "nombre": "Matemática II",
+      "semestre": 2,
+      "uc": 5,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "MAI01506" }
+      ]
+    },
+    {
+      "codigo": "PRO02305",
+      "nombre": "Programación I",
+      "semestre": 2,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "LOG01404" },
+        { "tipo": "creditos", "minimo": 9 }
+      ]
+    },
+
+    {
+      "codigo": "ING03303",
+      "nombre": "Inglés I",
+      "semestre": 3,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "creditos", "minimo": 26 }
+      ]
+    },
+    {
+      "codigo": "EDI03304",
+      "nombre": "Ecuaciones Diferenciales",
+      "semestre": 3,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "MAI02506" },
+        { "tipo": "materia", "codigo": "ALI02304" }
+      ]
+    },
+    {
+      "codigo": "FIS03405",
+      "nombre": "Física II",
+      "semestre": 3,
+      "uc": 4,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "FIS02405" }
+      ]
+    },
+    {
+      "codigo": "IIN03202",
+      "nombre": "Introducción a la Ingeniería",
+      "semestre": 3,
+      "uc": 2,
+      "prelaciones": [
+        { "tipo": "creditos", "minimo": 26 }
+      ]
+    },
+    {
+      "codigo": "MAI03304",
+      "nombre": "Matemática III",
+      "semestre": 3,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "MAI02506" }
+      ]
+    },
+    {
+      "codigo": "PRO03305",
+      "nombre": "Programación II",
+      "semestre": 3,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "PRO02305" }
+      ]
+    },
+
+    {
+      "codigo": "FEL04304",
+      "nombre": "Fundamentos de Electrónica",
+      "semestre": 4,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "FIS03405" }
+      ]
+    },
+    {
+      "codigo": "AES04305",
+      "nombre": "Algoritmos y Estructuras I",
+      "semestre": 4,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "MAI03304" },
+        { "tipo": "materia", "codigo": "PRO03305" }
+      ]
+    },
+    {
+      "codigo": "LSI04304",
+      "nombre": "Lógica Simbólica",
+      "semestre": 4,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "MAI03304" },
+        { "tipo": "materia", "codigo": "EDI03304" }
+      ]
+    },
+    {
+      "codigo": "ETD04304",
+      "nombre": "Estadística I",
+      "semestre": 4,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "EDI03304" }
+      ]
+    },
+    {
+      "codigo": "LFI04103",
+      "nombre": "Laboratorio de Física",
+      "semestre": 4,
+      "uc": 1,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "FIS03405" }
+      ]
+    },
+    {
+      "codigo": "PRO04405",
+      "nombre": "Programación III",
+      "semestre": 4,
+      "uc": 4,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "PRO03305" }
+      ]
+    },
+
+    {
+      "codigo": "EDI05405",
+      "nombre": "Estructuras Discretas I",
+      "semestre": 5,
+      "uc": 4,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "LSI04304" }
+      ]
+    },
+    {
+      "codigo": "AES05305",
+      "nombre": "Algoritmos y Estructuras II",
+      "semestre": 5,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "PRO04405" },
+        { "tipo": "materia", "codigo": "AES04305" }
+      ]
+    },
+    {
+      "codigo": "DLO05304",
+      "nombre": "Diseño Lógico",
+      "semestre": 5,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "FEL04304" },
+        { "tipo": "materia", "codigo": "LFI04103" }
+      ]
+    },
+    {
+      "codigo": "ETD05304",
+      "nombre": "Estadística II",
+      "semestre": 5,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "ETD04304" }
+      ]
+    },
+    {
+      "codigo": "CNU05405",
+      "nombre": "Cálculo Numérico",
+      "semestre": 5,
+      "uc": 4,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "AES04305" }
+      ]
+    },
+    {
+      "codigo": "PWE05305",
+      "nombre": "Programación Web",
+      "semestre": 5,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "PRO04405" }
+      ]
+    },
+
+    {
+      "codigo": "EDI06304",
+      "nombre": "Estructuras Discretas II",
+      "semestre": 6,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "EDI05405" }
+      ]
+    },
+    {
+      "codigo": "SPR06304",
+      "nombre": "Sistemas de Programas",
+      "semestre": 6,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "AES05305" },
+        { "tipo": "materia", "codigo": "PWE05305" }
+      ]
+    },
+    {
+      "codigo": "SBD06304",
+      "nombre": "Sistemas de Bases de Datos",
+      "semestre": 6,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "AES05305" }
+      ]
+    },
+    {
+      "codigo": "ODC06304",
+      "nombre": "Organización del Computador",
+      "semestre": 6,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "creditos", "minimo": 80 }
+      ]
+    },
+    {
+      "codigo": "CDA06304",
+      "nombre": "Comunicación de Datos",
+      "semestre": 6,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "creditos", "minimo": 80 }
+      ]
+    },
+    {
+      "codigo": "CIN06304",
+      "nombre": "Control e Instrumentación",
+      "semestre": 6,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "DLO05304" }
+      ]
+    },
+
+    {
+      "codigo": "TIN07304",
+      "nombre": "Traductores e Interpretadores",
+      "semestre": 7,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "EDI06304" }
+      ]
+    },
+    {
+      "codigo": "SIN07406",
+      "nombre": "Sistemas de Información I",
+      "semestre": 7,
+      "uc": 4,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "SPR06304" },
+        { "tipo": "materia", "codigo": "SBD06304" }
+      ]
+    },
+    {
+      "codigo": "RDC07304",
+      "nombre": "Redes de Computadoras",
+      "semestre": 7,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "CDA06304" }
+      ]
+    },
+    {
+      "codigo": "SOP07405",
+      "nombre": "Sistemas de Operación",
+      "semestre": 7,
+      "uc": 4,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "ODC06304" }
+      ]
+    },
+    {
+      "codigo": "LPR07304",
+      "nombre": "Lenguaje de Programación",
+      "semestre": 7,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "creditos", "minimo": 99 }
+      ]
+    },
+    {
+      "codigo": "PMA07304",
+      "nombre": "Programación Matemática",
+      "semestre": 7,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "creditos", "minimo": 99 }
+      ]
+    },
+
+    {
+      "codigo": "SIN08406",
+      "nombre": "Sistemas de Información II",
+      "semestre": 8,
+      "uc": 4,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "SIN07406" }
+      ]
+    },
+    {
+      "codigo": "ICU08304",
+      "nombre": "Interfaces con el Usuario",
+      "semestre": 8,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "SIN07406" },
+        { "tipo": "materia", "codigo": "SOP07405" }
+      ]
+    },
+    {
+      "codigo": "ACI08304",
+      "nombre": "Arquitectura del Computador",
+      "semestre": 8,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "LPR07304" }
+      ]
+    },
+    {
+      "codigo": "MIN08303",
+      "nombre": "Metodología de la Investigación",
+      "semestre": 8,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "creditos", "minimo": 118 }
+      ]
+    },
+    {
+      "codigo": "EPC08303",
+      "nombre": "Electiva Profesional I",
+      "semestre": 8,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "creditos", "minimo": 118 }
+      ]
+    },
+    {
+      "codigo": "MCU08304",
+      "nombre": "Métodos Cuantitativos",
+      "semestre": 8,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "PMA07304" }
+      ]
+    },
+
+    {
+      "codigo": "EPC09303",
+      "nombre": "Electiva Profesional II",
+      "semestre": 9,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "creditos", "minimo": 138 }
+      ]
+    },
+    {
+      "codigo": "INS09303",
+      "nombre": "Ingeniería del Software",
+      "semestre": 9,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "SIN08406" }
+      ]
+    },
+    {
+      "codigo": "PTC09814",
+      "nombre": "Pasantía I o Trabajo de Grado I",
+      "semestre": 9,
+      "uc": 8,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "MIN08303" }
+      ]
+    },
+    {
+      "codigo": "CPR09304",
+      "nombre": "Control de Proyectos",
+      "semestre": 9,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "creditos", "minimo": 138 }
+      ]
+    },
+
+    {
+      "codigo": "CUT10202",
+      "nombre": "Cultura",
+      "semestre": 10,
+      "uc": 2,
+      "prelaciones": [
+        { "tipo": "creditos", "minimo": 147 }
+      ]
+    },
+    {
+      "codigo": "EPC10303",
+      "nombre": "Electiva Profesional III",
+      "semestre": 10,
+      "uc": 3,
+      "prelaciones": [
+        { "tipo": "creditos", "minimo": 156 }
+      ]
+    },
+    {
+      "codigo": "GER10202",
+      "nombre": "Gerencia",
+      "semestre": 10,
+      "uc": 2,
+      "prelaciones": [
+        { "tipo": "creditos", "minimo": 147 }
+      ]
+    },
+    {
+      "codigo": "EHA10202",
+      "nombre": "El Hombre y su Ambiente",
+      "semestre": 10,
+      "uc": 2,
+      "prelaciones": [
+        { "tipo": "creditos", "minimo": 147 }
+      ]
+    },
+    {
+      "codigo": "PTC10712",
+      "nombre": "Pasantía II o Trabajo de Grado II",
+      "semestre": 10,
+      "uc": 7,
+      "prelaciones": [
+        { "tipo": "materia", "codigo": "PTC09814" }
+      ]
+    }
+  ]
+}

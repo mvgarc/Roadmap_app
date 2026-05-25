@@ -1,0 +1,19 @@
+{
+  "name": "Roadmap_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "packageManager": "pnpm@11.3.0",
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "dev": "turbo run dev --filter=@apps/web",
+  "build": "turbo run build"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "turbo": "^2.9.14"
+  }
+}
