@@ -1,0 +1,75 @@
+{
+  "universidad": "UJAP",
+  "facultad": "Ingeniería",
+  "carrera": "Ingeniería Civil",
+  "plan": "I-2019 (Aprobado CU 552 del 04/12/2018)",
+  "materias": [
+    { "codigo": "EFS01202", "nombre": "Educación Física y Salud", "semestre": 1, "uc": 2, "prelaciones": [] },
+    { "codigo": "GAN01404", "nombre": "Geometría Analítica", "semestre": 1, "uc": 4, "prelaciones": [] },
+    { "codigo": "LOG01404", "nombre": "Lógica", "semestre": 1, "uc": 4, "prelaciones": [] },
+    { "codigo": "MAI01506", "nombre": "Matemática I", "semestre": 1, "uc": 5, "prelaciones": [] },
+    { "codigo": "VEC01202", "nombre": "Venezuela Contemporánea", "semestre": 1, "uc": 2, "prelaciones": [] },
+
+    { "codigo": "ALI02304", "nombre": "Álgebra Lineal", "semestre": 2, "uc": 3, "prelaciones": [{ "tipo": "materia", "codigo": "GAN01404" }] },
+    { "codigo": "CIN02303", "nombre": "Creatividad e Inventiva", "semestre": 2, "uc": 3, "prelaciones": [{ "tipo": "materia", "codigo": "LOG01404" }] },
+    { "codigo": "FIS02405", "nombre": "Física I", "semestre": 2, "uc": 4, "prelaciones": [{ "tipo": "materia", "codigo": "GAN01404" }, { "tipo": "materia", "codigo": "MAI01506" }] },
+    { "codigo": "GDS02203", "nombre": "Geometría Descriptiva", "semestre": 2, "uc": 2, "prelaciones": [{ "tipo": "materia", "codigo": "GAN01404" }] },
+    { "codigo": "MAI02506", "nombre": "Matemática II", "semestre": 2, "uc": 5, "prelaciones": [{ "tipo": "materia", "codigo": "MAI01506" }] },
+    { "codigo": "PRO02305", "nombre": "Programación I", "semestre": 2, "uc": 3, "prelaciones": [{ "tipo": "creditos", "minimo": 9 }] },
+
+    { "codigo": "DIB03204", "nombre": "Dibujo", "semestre": 3, "uc": 2, "prelaciones": [{ "tipo": "materia", "codigo": "GDS02203" }] },
+    { "codigo": "EDI03304", "nombre": "Ecuaciones Diferenciales", "semestre": 3, "uc": 3, "prelaciones": [{ "tipo": "materia", "codigo": "MAI02506" }, { "tipo": "materia", "codigo": "ALI02304" }] },
+    { "codigo": "FIS03405", "nombre": "Física II", "semestre": 3, "uc": 4, "prelaciones": [{ "tipo": "materia", "codigo": "FIS02405" }] },
+    { "codigo": "IIN03202", "nombre": "Introducción a la Ingeniería", "semestre": 3, "uc": 2, "prelaciones": [{ "tipo": "creditos", "minimo": 27 }] },
+    { "codigo": "MAI03304", "nombre": "Matemática III", "semestre": 3, "uc": 3, "prelaciones": [{ "tipo": "materia", "codigo": "MAI02506" }] },
+    { "codigo": "PRO03305", "nombre": "Programación II", "semestre": 3, "uc": 3, "prelaciones": [{ "tipo": "materia", "codigo": "PRO02305" }] },
+
+    { "codigo": "CUT04202", "nombre": "Cultura", "semestre": 4, "uc": 2, "prelaciones": [{ "tipo": "creditos", "minimo": 37 }] },
+    { "codigo": "EIC04203", "nombre": "Estadística", "semestre": 4, "uc": 2, "prelaciones": [{ "tipo": "materia", "codigo": "EDI03304" }] },
+    { "codigo": "ING04303", "nombre": "Inglés", "semestre": 4, "uc": 3, "prelaciones": [{ "tipo": "creditos", "minimo": 46 }] },
+    { "codigo": "LFI04103", "nombre": "Laboratorio de Física", "semestre": 4, "uc": 1, "prelaciones": [{ "tipo": "materia", "codigo": "FIS03405" }] },
+    { "codigo": "MRA04505", "nombre": "Mecánica Racional I", "semestre": 4, "uc": 5, "prelaciones": [{ "tipo": "materia", "codigo": "MAI03304" }, { "tipo": "materia", "codigo": "DIB03204" }] },
+    { "codigo": "QGC04305", "nombre": "Química General", "semestre": 4, "uc": 3, "prelaciones": [{ "tipo": "creditos", "minimo": 46 }] },
+
+    { "codigo": "GEO05304", "nombre": "Geología", "semestre": 5, "uc": 3, "prelaciones": [{ "tipo": "materia", "codigo": "QGC04305" }] },
+    { "codigo": "MFL05304", "nombre": "Mecánica de los Fluidos I", "semestre": 5, "uc": 3, "prelaciones": [{ "tipo": "materia", "codigo": "MRA04505" }] },
+    { "codigo": "RMA05506", "nombre": "Resistencia de Materiales", "semestre": 5, "uc": 5, "prelaciones": [{ "tipo": "materia", "codigo": "MRA04505" }] },
+    { "codigo": "SIC05102", "nombre": "Seminario de Ingeniería Civil", "semestre": 5, "uc": 1, "prelaciones": [{ "tipo": "creditos", "minimo": 54 }] },
+    { "codigo": "TOP05507", "nombre": "Topografía", "semestre": 5, "uc": 5, "prelaciones": [{ "tipo": "materia", "codigo": "EIC04203" }] },
+    { "codigo": "TTR05304", "nombre": "Tránsito y Transporte", "semestre": 5, "uc": 3, "prelaciones": [{ "tipo": "materia", "codigo": "EIC04203" }] },
+
+    { "codigo": "DCA06405", "nombre": "Diseño de Carreteras", "semestre": 6, "uc": 4, "prelaciones": [{ "tipo": "materia", "codigo": "TOP05507" }, { "tipo": "materia", "codigo": "TTR05304" }] },
+    { "codigo": "IAE06405", "nombre": "Introducción al Análisis Estructural", "semestre": 6, "uc": 4, "prelaciones": [{ "tipo": "materia", "codigo": "RMA05506" }] },
+    { "codigo": "MDS06406", "nombre": "Mecánica de los Suelos", "semestre": 6, "uc": 4, "prelaciones": [{ "tipo": "materia", "codigo": "GEO05304" }] },
+    { "codigo": "MEN06405", "nombre": "Materiales y Ensayos", "semestre": 6, "uc": 4, "prelaciones": [{ "tipo": "materia", "codigo": "RMA05506" }] },
+    { "codigo": "MFL06405", "nombre": "Mecánica de Fluidos II", "semestre": 6, "uc": 4, "prelaciones": [{ "tipo": "materia", "codigo": "MFL05304" }] },
+
+    { "codigo": "ACL07405", "nombre": "Acueductos y Cloacas", "semestre": 7, "uc": 4, "prelaciones": [{ "tipo": "materia", "codigo": "MDS06406" }, { "tipo": "materia", "codigo": "MFL06405" }] },
+    { "codigo": "COA07406", "nombre": "Concreto Armado I", "semestre": 7, "uc": 4, "prelaciones": [{ "tipo": "materia", "codigo": "IAE06405" }, { "tipo": "materia", "codigo": "MEN06405" }] },
+    { "codigo": "EHA07202", "nombre": "El Hombre y su Ambiente", "semestre": 7, "uc": 2, "prelaciones": [{ "tipo": "creditos", "minimo": 90 }] },
+    { "codigo": "EST07405", "nombre": "Estructuras I", "semestre": 7, "uc": 4, "prelaciones": [{ "tipo": "materia", "codigo": "IAE06405" }, { "tipo": "materia", "codigo": "MDS06406" }] },
+    { "codigo": "HID07304", "nombre": "Hidrología", "semestre": 7, "uc": 3, "prelaciones": [{ "tipo": "materia", "codigo": "MFL06405" }, { "tipo": "materia", "codigo": "DCA06405" }] },
+    { "codigo": "HSA07303", "nombre": "Higiene y Saneamiento Ambiental", "semestre": 7, "uc": 3, "prelaciones": [{ "tipo": "materia", "codigo": "MFL06405" }] },
+
+    { "codigo": "COA08304", "nombre": "Concreto Armado II", "semestre": 8, "uc": 3, "prelaciones": [{ "tipo": "materia", "codigo": "COA07406" }] },
+    { "codigo": "CVI08406", "nombre": "Construcciones Viales", "semestre": 8, "uc": 4, "prelaciones": [{ "tipo": "materia", "codigo": "HID07304" }] },
+    { "codigo": "EST08405", "nombre": "Estructuras II", "semestre": 8, "uc": 4, "prelaciones": [{ "tipo": "materia", "codigo": "EST07405" }] },
+    { "codigo": "IPE08202", "nombre": "Instalaciones para Edificios", "semestre": 8, "uc": 2, "prelaciones": [{ "tipo": "materia", "codigo": "COA07406" }, { "tipo": "materia", "codigo": "ACL07405" }] },
+    { "codigo": "MIN08303", "nombre": "Metodología de la Investigación", "semestre": 8, "uc": 2, "prelaciones": [{ "tipo": "creditos", "minimo": 122 }] },
+    { "codigo": "OBH08406", "nombre": "Obras Hidráulicas", "semestre": 8, "uc": 4, "prelaciones": [{ "tipo": "materia", "codigo": "ACL07405" }, { "tipo": "materia", "codigo": "HID07304" }, { "tipo": "materia", "codigo": "COA07406" }] },
+
+    { "codigo": "ELT09303", "nombre": "Electiva I", "semestre": 9, "uc": 3, "prelaciones": [{ "tipo": "creditos", "minimo": 142 }] },
+    { "codigo": "FMU09305", "nombre": "Fundaciones y Muros", "semestre": 9, "uc": 3, "prelaciones": [{ "tipo": "materia", "codigo": "EST08405" }] },
+    { "codigo": "GAC09203", "nombre": "Gestión Ambiental de Obras Civiles", "semestre": 9, "uc": 2, "prelaciones": [{ "tipo": "materia", "codigo": "OBH08406" }, { "tipo": "materia", "codigo": "CVI08406" }] },
+    { "codigo": "PRA09305", "nombre": "Proyectos Estructurales de Acero", "semestre": 9, "uc": 3, "prelaciones": [{ "tipo": "materia", "codigo": "EST08405" }, { "tipo": "materia", "codigo": "COA08304" }] },
+    { "codigo": "PTG09712", "nombre": "Pasantía I o Trabajo de Grado I", "semestre": 9, "uc": 7, "prelaciones": [{ "tipo": "materia", "codigo": "MIN08303" }] },
+    { "codigo": "TEC09202", "nombre": "Técnica de la Construcción", "semestre": 9, "uc": 2, "prelaciones": [{ "tipo": "materia", "codigo": "CVI08406" }, { "tipo": "materia", "codigo": "COA08304" }] },
+
+    { "codigo": "ADO10304", "nombre": "Administración de Obras", "semestre": 10, "uc": 3, "prelaciones": [{ "tipo": "materia", "codigo": "TEC09202" }, { "tipo": "materia", "codigo": "GAC09203" }] },
+    { "codigo": "DIB10202", "nombre": "Dibujo de Proyectos", "semestre": 10, "uc": 2, "prelaciones": [{ "tipo": "materia", "codigo": "FMU09305" }] },
+    { "codigo": "ELT10203", "nombre": "Electiva II", "semestre": 10, "uc": 2, "prelaciones": [{ "tipo": "creditos", "minimo": 162 }] },
+    { "codigo": "LDI10202", "nombre": "Legislación y Deontología para Ingenieros", "semestre": 10, "uc": 2, "prelaciones": [{ "tipo": "creditos", "minimo": 162 }] },
+    { "codigo": "PEC10405", "nombre": "Proyectos Estructurales de Concreto", "semestre": 10, "uc": 4, "prelaciones": [{ "tipo": "materia", "codigo": "FMU09305" }, { "tipo": "materia", "codigo": "PRA09305" }] },
+    { "codigo": "PTG10712", "nombre": "Pasantía II o Trabajo de Grado II", "semestre": 10, "uc": 7, "prelaciones": [{ "tipo": "materia", "codigo": "PTG09712" }] }
+  ]
+}

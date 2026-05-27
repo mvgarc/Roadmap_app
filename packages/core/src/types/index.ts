@@ -22,6 +22,7 @@ export type Materia = {
 // Pensum 
 export type Pensum = {
   universidad: string;
+  facultad: string;
   carrera: string;
   plan: string;
   materias: Materia[];
