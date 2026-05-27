@@ -39,7 +39,8 @@ export default function App() {
   const conteo = { aprobada: 0, disponible: 0, bloqueada: 0 } as Record<EstadoMateria, number>;
   for (const m of PENSUM.materias) conteo[estados[m.codigo] as EstadoMateria]++;
 
-  const semestres = Array.from({ length: 10 }, (_, i) => ({
+  const totalSemestres = Math.max(...PENSUM.materias.map((m) => m.semestre));
+  const semestres = Array.from({ length: totalSemestres }, (_, i) => ({
     numero: i + 1,
     materias: PENSUM.materias.filter((m) => m.semestre === i + 1),
   }));
